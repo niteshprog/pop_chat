@@ -1,0 +1,20 @@
+.chatbot-all{
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+}
+
+.chatbot-all > iframe{
+    height: 100%; 
+    width: 100%; 
+    background-color: black;
+}
+
+.pop> img{
+    height: 40px; 
+    width: 40px;
+}
+
+.pop > img:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+#chatCon {
+    width: 20%;
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+  }
+  
+  #chatCon .chat-box {
+    /* display: none; */
+    width: 100%;
+    height: 500px;
+    border-radius: 25px;
+    background-color: #eee;
+  }
+  
+ .chat-box > iframe{
+    height : 100%; 
+    width : 100%; 
+    background-color: black;
+ } 
+  
+  #chatCon .pop {
+    width: 100%;
+    height: 25%;
+    cursor: pointer;
+  }
+  
+  #chatCon .pop p {
+    text-align: right;
+  }
+  
+  #chatCon .pop img {
+    border-radius: 50%;
+    width: 25%;
+  }
